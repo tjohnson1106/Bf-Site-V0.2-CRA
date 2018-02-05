@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 
+import "../images/horizon_dark.jpg";
+import "../images/web.jpg";
+import "../images/design.jpg";
+import "../images/android.jpg";
+import "../images/resources.jpg";
+import "../images/articles.jpg";
+
 class Main extends Component {
   render() {
     return (
       <section id="one" className="tiles">
         <article>
           <span className="image">
-            <img src="../images/horizon_dark.jpg" alt="" />
+            <img src="../images/horizon_dark" alt="" />
           </span>
           <header className="major">
             <h3>
