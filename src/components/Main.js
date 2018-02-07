@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 
-import "../images/horizon_dark.jpg"
+import "../images/horizon_dark.jpg";
+
+
+
+
 
 class Main extends Component {
   render() {
     return (
       <section id="one" className="tiles">
         <article>
-          <span className="">
-
-            <img src="../images/horizon_dark.jpg" alt="" />
-
+          <span className="image">
+            <img src={require("../images/horizon_dark.jpg")} alt="" />
           </span>
           <header className="major">
             <h3>
