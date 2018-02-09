@@ -9,7 +9,7 @@ class Header extends Component {
           <strong>Bracket</strong> <span>Factory</span>
         </a>
         <nav>
-          <a href="#menu" onClick="git href">
+          <a href="#menu">
             Create an Experience (Do Not Press)
           </a>
         </nav>

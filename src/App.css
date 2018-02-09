@@ -2226,7 +2226,7 @@
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .imageright {
 			max-width: 30%;
 		}
 

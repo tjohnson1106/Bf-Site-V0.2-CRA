@@ -1,11 +1,20 @@
 import React, { Component } from "react";
 
-import "../images/horizon_dark.jpg";
-import "../images/web.jpg";
-import "../images/design.jpg";
-import "../images/android.jpg";
-import "../images/resources.jpg";
-import "../images/articles.jpg";
+// import HorizonDark from "./imagesIndex";
+
+// import { HorizonDark } from "../images/imagesIndex";
+// import { Web } from "../images/imagesIndex";
+// import { Design } from "../images/imagesIndex";
+// import { Android } from "../images/imagesIndex";
+// import { Resources } from "../images/imagesIndex";
+// import { Articles } from "../images/imagesIndex";
+
+// import "../images/horizon_dark.jpg";
+// import "../images/web.jpg";
+// import "../images/design.jpg";
+// import "../images/android.jpg";
+// import "../images/resources.jpg";
+// import "../images/articles.jpg";
 
 class Main extends Component {
   render() {
@@ -13,7 +22,7 @@ class Main extends Component {
       <section id="one" className="tiles">
         <article>
           <span className="image">
-            <img src="../images/horizon_dark" alt="" />
+            <img src={require("./horizon_dark.jpg")} alt="" />
           </span>
           <header className="major">
             <h3>
@@ -26,7 +35,9 @@ class Main extends Component {
         </article>
         <article>
           <span className="image">
-            <img src="../images/Web.jpg" alt="" />
+
+            <img src={require("../images/web.jpg")} alt="" />
+
           </span>
           <header className="major">
             <h3>
@@ -39,7 +50,6 @@ class Main extends Component {
         </article>
         <article>
           <span className="image">
-            {" "}
             <img src="../images/design.jpg" alt="" />
           </span>
           <header className="major">
