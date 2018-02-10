@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Footer, Contact, Filler, Main, Banner, Menu, Header } from "./components";
+import { Footer, Contact, Filler, MainImages, Banner, Menu, Header } from "./components";
 import "./App.css";
+
+
 class App extends Component {
   render() {
     return (
@@ -11,7 +13,7 @@ class App extends Component {
         <Banner />
 
         <div id="main">
-          <Main />
+          <MainImages />
           <Filler />
 
           <Contact />

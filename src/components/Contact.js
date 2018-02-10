@@ -13,7 +13,7 @@ class Contact extends Component {
               </div>
               <div className="field half">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+                <input type="email" name="email" id="email" />
               </div>
               <div className="field">
                 <label for="message">Message</label>
