@@ -2,13 +2,13 @@ import React, { Component } from "react";
 
 // import HorizonDark from "./imagesIndex"
 
-const MainImages = () => ({
+const MainImages = () => ( {
   render() {
     return (
       <section id="one" className="tiles">
         <article>
           <span className="image">
-            <img src={require("./horizon_dark.jpg")} alt="" />
+            <img src={require("../images/horizon_dark.jpg")} alt="" />
           </span>
           <header className="major">
             <h3>
