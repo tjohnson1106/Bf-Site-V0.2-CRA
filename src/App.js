@@ -1,11 +1,7 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import { Footer, Contact, Filler, Main, Banner, Menu, Header } from "./components";
+import { Footer, Contact, Filler, MainImages, Banner, Menu, Header } from "./components";
 import "./App.css";
 
-// require("../public/assets/css/main");
-// require("../public/assets/fonts");
-// require("../public/images");
 
 class App extends Component {
   render() {
@@ -17,7 +13,7 @@ class App extends Component {
         <Banner />
 
         <div id="main">
-          <Main />
+          <MainImages />
           <Filler />
 
           <Contact />

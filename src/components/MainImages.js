@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
-class Main extends Component {
+// import HorizonDark from "./imagesIndex"
+
+const MainImages = () => ({
   render() {
     return (
       <section id="one" className="tiles">
         <article>
           <span className="image">
-            <img src="../images/horizon_dark.jpg" alt="" />
+            <img src={require("./horizon_dark.jpg")} alt="" />
           </span>
           <header className="major">
             <h3>
@@ -19,7 +21,7 @@ class Main extends Component {
         </article>
         <article>
           <span className="image">
-            <img src="../images/Web.jpg" alt="" />
+            <img src={require("../images/web.jpg")} alt="" />
           </span>
           <header className="major">
             <h3>
@@ -32,7 +34,6 @@ class Main extends Component {
         </article>
         <article>
           <span className="image">
-            {" "}
             <img src="../images/design.jpg" alt="" />
           </span>
           <header className="major">
@@ -86,6 +87,6 @@ class Main extends Component {
       </section>
     );
   }
-}
+});
 
-export default Main;
+export default MainImages;
