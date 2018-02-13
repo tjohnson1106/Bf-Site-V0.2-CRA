@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // import HorizonDark from "./imagesIndex"
 
-const MainImages = () => ( {
+const MainImages = () => ({
   render() {
     return (
       <section id="one" className="tiles">
