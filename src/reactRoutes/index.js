@@ -7,7 +7,8 @@ import Contact from "../../src/components/Contact";
 const routes = [
   { path: "/ Menu", action: () => <Menu /> },
   { path: "/Footer", action: () => <Footer /> },
-  { path: "/Contact", action: () => <Contact /> }
+  { path: "/Contact", action: () => <Contact /> },
+  { path: "./MainImages", action: () => <MainImages /> }
 ];
 
 export default routes;

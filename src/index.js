@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-// import $ from "jquery";
+import $ from "jquery";
 
 import registerServiceWorker from "./registerServiceWorker";
 
