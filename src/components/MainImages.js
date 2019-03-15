@@ -10,6 +10,7 @@ const MainImages = () => ({
           <span className="image">
             <img src={require("../images/horizon_dark.jpg")} alt="" />
           </span>
+
           <header className="major">
             <h3>
               <a href="/" className="link">

@@ -1,7 +1,15 @@
 import React, { Component } from "react";
-import { Footer, Contact, Filler, MainImages, Banner, Menu, Header } from "./components";
-import "./App.css";
 
+import {
+  Footer,
+  Contact,
+  Filler,
+  MainImages,
+  Banner,
+  Menu,
+  Header
+} from "./components";
+import "./App.css";
 
 class App extends Component {
   render() {

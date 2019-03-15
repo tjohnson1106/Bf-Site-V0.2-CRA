@@ -1,17 +1,19 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Menu from "../../src/components/Menu";
-import Footer from "../../src/components/Footer";
-import Contact from "../../src/components/Contact";
+import App from "../App";
 
-const routes = [
-  { path: "/ Menu", action: () => <Menu /> },
-  { path: "/Footer", action: () => <Footer /> },
-  { path: "/Contact", action: () => <Contact /> },
-  { path: "./MainImages", action: () => <MainImages /> }
-];
-
-export default routes;
+export const Routes = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route exact path="/menu" component={Menu} />
+      </Switch>
+    </Router>
+  );
+};
 
 /*import React from "react";
 import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
